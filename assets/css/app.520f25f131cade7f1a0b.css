@@ -7988,8 +7988,21 @@ html {
     position: fixed;
     width: 100%;
     margin: 0 auto;
+
+    z-index: 7;
+
+    
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 150vw;
+    height: 84px;
     background-color: #0d263c;
-    z-index: 7
+    opacity: 0;
+    z-index: -1;
 }
 
 .header-content {
