@@ -484,6 +484,7 @@ template {
 }
 
 .hamb-night {
+    display: none;
     position: fixed;
     left: 0;
     bottom: -1600px;
