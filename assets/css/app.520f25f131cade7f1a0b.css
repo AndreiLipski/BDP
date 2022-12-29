@@ -486,13 +486,13 @@ template {
 .hamb-night {
     position: fixed;
     left: 0;
-    bottom: -100%;
-    height: 100vh;
+    bottom: -120%;
+    height: 120vh;
     width: 100vw;
     background-color: rgba(13, 38, 60, .58);
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s
 }
 
 .hamb-night_active {
@@ -6925,6 +6925,12 @@ span.ant-dot {
     }
 }
 
+@media (max-width:600px) {
+    .wrapper-box__ic {
+        width: 80px;
+        height: 80px
+    }
+}
 .wrapper-box__box-text_title {
     margin-bottom: 10px;
     font-family: Ubuntu;
@@ -7272,7 +7278,7 @@ span.ant-dot {
 }
 
 .section-five-cont {
-    background-image: url(/assets/img/img-5-1.jpg);
+    background-image: url(../img/img-5-1.jpg);
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: 1920px
