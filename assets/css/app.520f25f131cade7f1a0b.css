@@ -438,7 +438,7 @@ template {
         -ms-flex-pack: start;
         justify-content: flex-start;
         background-color: #0d263c;
-        padding-top: 20px;
+        height: 160px;
     }
 
     .nav-menu__list-item {
